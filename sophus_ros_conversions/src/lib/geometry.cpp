@@ -5,7 +5,7 @@
 ** Includes
 *****************************************************************************/
 
-#include <Eigen/Geometry>
+//#include <Eigen/Geometry>
 #include "../../include/sophus_ros_conversions/eigen.hpp"
 #include "../../include/sophus_ros_conversions/geometry.hpp"
 

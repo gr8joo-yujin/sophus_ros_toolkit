@@ -16,9 +16,10 @@ find_package(catkin
         ecl_build
         geometry_msgs
         tf
+        ecl_linear_algebra
     )
 
-find_package(Eigen REQUIRED)
+# find_package(Eigen REQUIRED)
 find_package(sophus REQUIRED)
 
 ##############################################################################
@@ -35,8 +36,9 @@ catkin_package(
         ecl_build
         geometry_msgs
         tf
+        ecl_linear_algebra
     DEPENDS
-        Eigen
+#         Eigen
         sophus
     )
 

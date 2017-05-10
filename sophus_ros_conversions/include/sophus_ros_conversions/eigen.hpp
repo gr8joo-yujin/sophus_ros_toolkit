@@ -11,8 +11,9 @@
 /*****************************************************************************
 ** Includes
 *****************************************************************************/
-
-#include <Eigen/Geometry>
+#include <ecl/linear_algebra.hpp>
+#include <ecl/linear_algebra/eigen.hpp>
+//#include <Eigen/Geometry>
 #include <geometry_msgs/Point.h>
 #include <geometry_msgs/Quaternion.h>
 
